@@ -15,44 +15,48 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-    width: 90%;
+    width: 80%;
     margin: 20px;
 }
 
 .character {
-    background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    color: #fff;
 }
 
-.character img {
-    max-width: 100%;
-    border-radius: 10px;
-    margin-bottom: 10px;
+#goku {
+    background-color: #b35a5a;
 }
 
-.character.horizontal {
-    flex-direction: row;
-    text-align: left;
+#gohan {
+    background-color: #90cfee;
 }
 
-.character.horizontal img {
-    margin-right: 20px;
+#piccolo {
+    background-color: #5a7369;
 }
 
-.character h2 {
+#vegeta {
+    background-color: #4a525a;
+}
+
+#krillin {
+    background-color: #e78d73;
+}
+
+h2 {
     margin-bottom: 10px;
     font-size: 24px;
 }
 
-.character p {
+p {
+    margin-bottom: 10px;
     font-size: 14px;
-    line-height: 1.5;
+}
+
+strong {
+    font-size: 18px;
 }
